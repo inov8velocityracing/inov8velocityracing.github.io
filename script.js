@@ -1,1 +1,1 @@
-document.getElementById("").innerHTML = "This is text edited via javascript";
+document.getElementById("body").innerHTML = "This is text edited via javascript (body)";

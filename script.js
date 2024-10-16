@@ -1,0 +1,1 @@
+document.getElementById("").innerHTML = "This is text edited via javascript";

@@ -1,59 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-h1 {
-    text-align: center;
-}
+/* Base Styles */
 body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #525252;
+    color: #0011ff;
+    line-height: 1.6;
     text-align: justify;
 }
+
+h1, h2 {
+    text-align: center;
+    color: #00d824;
+}
+
+h3 {
+    margin: 0.5em 0;
+    color: #8e8e8e;
+}
+
 p {
     text-align: justify;
+    margin: 1em 0;
 }
-.ubuntu-light {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .ubuntu-regular {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .ubuntu-medium {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .ubuntu-bold {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .ubuntu-light-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .ubuntu-regular-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .ubuntu-medium-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .ubuntu-bold-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
+
+a {
+    text-decoration: none;
+    color: #26ff00;
+}
+
+/* Header Styles */
+header {
+    background-color: #006a15;
+    color: #ffffff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Section Styles */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+#team-members .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.team-member {
+    background: #797979;
+    border: 1px solid #565656;
+    border-radius: 8px;
+    padding: 1em;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-photo {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #323232;
+    color: #00ff26;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-links a {
+    color: hsl(210, 100%, 50%);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: rgb(0, 200, 0);
+}

@@ -62,12 +62,14 @@ section {
 
 .team-member {
     background: #797979;
-    border: 1px solid #565656;
-    border-radius: 8px;
+    border: 2% solid #000000;
+    border-radius: 8%;
     padding: 1em;
-    max-width: 250px;
+    height: 50%;
+    width: 25%;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4% 6% rgba(0, 0, 0, 0.1);
+    font-size: 100%;
 }
 
 .team-photo {
@@ -100,7 +102,7 @@ footer p {
 .social-links a {
     color: hsl(210, 100%, 50%);
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.5s;
 }
 
 .social-links a:hover {

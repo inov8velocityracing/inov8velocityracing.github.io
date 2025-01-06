@@ -18,7 +18,7 @@ h1, h2 {
 
 h3 {
     margin: 0.5em 0;
-    color: #8e8e8e;
+    color: #00d824;
 }
 
 p {
@@ -88,6 +88,8 @@ footer {
 
 footer p {
     margin: 0.5em 0;
+    justify-content: center;
+    text-align: center;
 }
 
 .social-links {
@@ -100,11 +102,11 @@ footer p {
 }
 
 .social-links a {
-    color: hsl(210, 100%, 50%);
+    color: hsl(229, 100%, 50%);
     font-weight: bold;
     transition: color 0.5s;
 }
 
 .social-links a:hover {
-    color: rgb(0, 200, 0);
+    color: #00d824;
 }
